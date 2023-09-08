@@ -21,7 +21,8 @@ public class Perssone {
 	@Column(name = "age")
 	private int age;
 	
-	
+	@Column(name = "xx")
+	private int xx;
 	public Perssone(String nom, String prenom, int age) {
 	
 		Nom = nom;
